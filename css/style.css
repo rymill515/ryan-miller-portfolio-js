@@ -8,7 +8,7 @@
 
 :root {
     --blue-text: #86ddff;
-    --dark-blue: #002b8f;
+    --dark-blue: #1B61F5;
     --mid-blue: #3ba0ff;
 }
 
@@ -254,6 +254,10 @@ li a {
     margin-top: 40px;
 }
 
+h3 {
+    color: black;
+}
+
 
 .project-header3 {
     font-size: 2rem;
@@ -262,6 +266,7 @@ li a {
     align-items: center;
     justify-content: center;
     margin: 20px; 
+    color: var(--dark-blue);
 
     
 }
@@ -273,6 +278,46 @@ li a {
 
 /* ABOUT SECTION */
 
+.more-skills {
+    background-color: none;
+    height: auto;
+    width: 500px;
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: left;
+    padding: 30px;
+    color: black}
+
+  #useful-skills {
+    background-color: white;
+    padding: 10px;
+    width: 500px;
+    height: 600px;
+    background: white;
+    position: relative;
+    box-shadow:-15px 7px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding-left: .1em;}
+
+.skills-list {
+    padding: 10px;
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    position: relative;
+}
+
+.skills-list:before {
+    content: '';
+    left: -1em;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/Check_fill.svg');
+    background-size: contain;
+    margin-right: .5em;
+}
+
 .project-header2 {
     background-color: white;
     font-size: 3rem;
@@ -280,7 +325,8 @@ li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    margin: 50px;
+    padding: 50px;
 }
 
 .about-container {
@@ -366,24 +412,23 @@ li a {
       padding: 10px;
   }
 
+  .content-skills2 {
+    text-align: center;
+    padding: 10px;
+}
+
   .more-about {
     background-color: none;
     height: auto;
-    width: 500px;
+    width: 60%;
     font-size: 1.5rem;
     display: inline-block;
     text-align: center;
-    padding: 30px;
+    margin: auto;
 
   }
 
-  #useful-skills {
-      background-color: white;
-  }
 
-  li {
-      padding: 10px;
-  }
 
 /* MOBILE SECTION */
 
