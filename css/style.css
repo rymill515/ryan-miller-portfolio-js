@@ -528,7 +528,7 @@ h3 {
         align-items: center;
         justify-content: center;
         background-color: white;
-        height: auto;
+        height: 600px;
         box-shadow:-15px 7px 30px rgba(0, 0, 0, 0.2);
     }
 
