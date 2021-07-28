@@ -423,7 +423,7 @@ h3 {
     width: 60%;
     font-size: 1.5rem;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     margin: auto;
 
   }
@@ -556,5 +556,15 @@ h3 {
         margin: 25% 35%;
         padding-top: 30%;
     }
-
+    .more-about {
+        background-color: none;
+        height: auto;
+        font-size: 1rem;
+        width: 80%;
+        display: inline-block;
+        text-align: left;
+        margin: auto;
+    
+      }
 }
+
