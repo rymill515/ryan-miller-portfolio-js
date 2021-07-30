@@ -24,7 +24,7 @@ a {
 /* NAVBAR SECTION */
 
 #nav {
-    background-color:rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: 0;
 }
 
@@ -125,8 +125,9 @@ li a {
     align-items:stretch;
     flex-direction: column;
     position: absolute;
-    top: 65%;
+    top: 75%;
     left: 10%;
+    margin-right: 10%;
     font-size: 40px;
     color:white;
     z-index: 2;
@@ -464,6 +465,11 @@ h3 {
         bottom: 0;
         z-index: 5;
 
+    }
+
+    .nav-icon {
+        display: flex;
+        padding: 13%;
     }
 
     ul {
