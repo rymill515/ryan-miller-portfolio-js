@@ -8,7 +8,7 @@
 
 :root {
     --blue-text: #86ddff;
-    --dark-blue: #1B61F5;
+    --dark-blue: #00027e;
     --mid-blue: #3ba0ff;
 }
 
@@ -23,7 +23,10 @@ a {
 
 /* NAVBAR SECTION */
 
-
+#nav {
+    background-color:rgba(255, 255, 255, 0);
+    z-index: 0;
+}
 
 #mobile-nav {
     display: none;
@@ -38,13 +41,11 @@ a {
 
 ul {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    justify-content: space-evenly;
     padding: 0 10%;
     list-style: none;
-    height: 10vh;
-    background-blend-mode:screen;
-    background-color: rgba(104, 104, 104, 0.26);
+    height: 7vh;
     opacity: 100%;
 
 }
@@ -70,7 +71,7 @@ li a {
     width: 100%;
     top: 0;
     left: 0;
-    background: rgba(90, 90, 90, 0.4);
+    background: rgba(90, 90, 90, 0.7);
     z-index: 1;
 }
 
@@ -83,7 +84,8 @@ li a {
 
 .image-container {
     position: relative;
-    background-image: url('../images/backdrop\ organic.jpg');
+    background-image: url('../images/paul-hanaoka-4ZaH0DGGomI-unsplash.jpg');
+    background-image: flip;
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -104,8 +106,8 @@ li a {
 
 .hero-text {
     display: flex;
-    justify-content: center;
-    align-items: left;
+    justify-content:left;
+    align-items:stretch;
     flex-direction: column;
     position: absolute;
     top: 35%;
@@ -113,6 +115,20 @@ li a {
     font-size: 40px;
     color: white;
     text-transform: uppercase;
+    z-index: 2;
+
+}
+
+.hero-text2 {
+    display: flex;
+    justify-content:left;
+    align-items:stretch;
+    flex-direction: column;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    font-size: 40px;
+    color:white;
     z-index: 2;
 
 }
@@ -301,7 +317,7 @@ h3 {
 
 .skills-list {
     padding: 10px;
-    font-size: .8em;
+    font-size: 1em;
     margin-bottom: 1em;
     margin-left: 2em;
     position: relative;
@@ -544,7 +560,7 @@ h3 {
     .about-text {
         margin-left: 20px;
         width: 100%;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .social-icons {
@@ -559,7 +575,7 @@ h3 {
     .more-about {
         background-color: none;
         height: auto;
-        font-size: 1rem;
+        font-size: 1.2rem;
         width: 80%;
         display: inline-block;
         text-align: left;
