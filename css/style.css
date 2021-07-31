@@ -130,6 +130,10 @@ li a {
 
 }
 
+span {
+    color: var(--dark-blue);
+}
+
 .hero-text2 {
     display: flex;
     justify-content:left;
