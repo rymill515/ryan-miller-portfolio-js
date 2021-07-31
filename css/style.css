@@ -310,6 +310,8 @@ h3 {
     margin: 100px; 
     color: var(--dark-blue);
 
+
+    
 }
 
 .project-header3:hover {
@@ -438,20 +440,49 @@ h3 {
   }
   
   .header.close:after {
-    content:"Read Less";
-    font-size: 2rem;
+    content: "";
+    font-size:2rem;
+    color: var(--dark-blue);
+    background-image: url('/images/arrowup.svg');
+    background-size: 50%;
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 50px; 
+    height: 50px;
   }
 
   .header:after {
-    content:"Read More";
+    content: "";
     font-size:2rem;
     color: var(--dark-blue);
+    background-image: url('/images/arrowdown.svg');
+    border: 3px solid #f48b0c;
+    justify-content: center;
+    border-radius: 100px;
+    background-size: 50%;
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 50px; 
+    height: 50px;
+
   }
 
-  .header:hover {
-    text-decoration: underline;
-    color: #f48b0c;
+
+  .read-more {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+    color: var(--dark-blue);
+
+
+    
 }
+
 
   .content-skills {
       text-align: center;
