@@ -15,6 +15,7 @@
 html {
     font-family: 'Montserrat' , sans-serif;
     background-color: #46474b;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -23,6 +24,16 @@ a {
 
 
 /* NAVBAR SECTION */
+
+.arrowup {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    color: #f48b0c;
+    
+}
 
 #nav {
     background-color: #46474b;
