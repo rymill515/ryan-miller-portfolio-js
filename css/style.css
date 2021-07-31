@@ -604,5 +604,9 @@ h3 {
         margin: auto;
     
       }
+      .arrowup { 
+          display: none;
+        
+    }
 }
 
