@@ -32,7 +32,17 @@ a {
     bottom: 40px;
     right: 50px;
     color: #f48b0c;
+    border: 2px solid #f48b0c;
+    padding: 2px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    border-radius: 5px;
     
+}
+
+.arrowup:hover {
+    background-color: rgb(104, 104, 104) ;
 }
 
 #nav {
@@ -128,10 +138,6 @@ li a {
     text-transform: uppercase;
     z-index: 2;
 
-}
-
-span {
-    color: var(--dark-blue);
 }
 
 .hero-text2 {
@@ -301,9 +307,9 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px; 
+    margin: 100px; 
     color: var(--dark-blue);
-    
+
 }
 
 .project-header3:hover {
@@ -441,6 +447,11 @@ h3 {
     font-size:2rem;
     color: var(--dark-blue);
   }
+
+  .header:hover {
+    text-decoration: underline;
+    color: #f48b0c;
+}
 
   .content-skills {
       text-align: center;
