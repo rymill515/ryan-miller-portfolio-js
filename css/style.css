@@ -8,8 +8,10 @@
 
 :root {
     --blue-text: #86ddff;
-    --dark-blue: #f48b0c;
-    --mid-blue: #eee9e6;
+    --dark-blue: #000000;
+    --mid-blue: #ffffff;
+    --light-blue: #207CFF;
+    
 }
 
 html {
@@ -31,8 +33,8 @@ a {
     height: 50px;
     bottom: 40px;
     right: 50px;
-    color: #f48b0c;
-    border: 2px solid #f48b0c;
+    color: #207CFF;
+    border: 2px solid #207CFF;
     padding: 2px;
     text-align: center;
     line-height: 20px;
@@ -80,7 +82,7 @@ li a {
 }
 
 #name {
-    color: var(--dark-blue);
+    color: var(--light-blue);
     font-size: 30px;
     font-weight: bold;
 }
@@ -157,7 +159,7 @@ li a {
 
 
 .firstWord {
-    color: var(--dark-blue);
+    color: var(--mid-blue);
 }
 
 .resume-cta {
@@ -356,7 +358,7 @@ h3 {
     position: absolute;
     width: 30px;
     height: 30px;
-    background-image: url('../images/Done.svg');
+    background-image: url('../images/Check_fill.svg');
     background-size: contain;
     margin-right: .5em;
 }
@@ -443,21 +445,22 @@ h3 {
     content: "";
     font-size:2rem;
     color: var(--dark-blue);
-    background-image: url('/images/arrowup.svg');
+    background-image: url('/images/Arrow\ up\ blue.svg');
     background-size: 50%;
     background-position: center;
     display: inline-block;
     background-repeat: no-repeat;
     width: 50px; 
     height: 50px;
+    color: white;
   }
 
   .header:after {
     content: "";
     font-size:2rem;
     color: var(--dark-blue);
-    background-image: url('/images/arrowdown.svg');
-    border: 3px solid #f48b0c;
+    background-image: url('/images/Arrow\ Down\ Blue.svg');
+
     justify-content: center;
     border-radius: 100px;
     background-size: 50%;
@@ -477,7 +480,7 @@ h3 {
     align-items: center;
     justify-content: center;
     margin-bottom: 10px; 
-    color: var(--dark-blue);
+    color: var(--mid-blue);
 
 
     
