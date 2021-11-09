@@ -102,7 +102,7 @@ li a {
 
 .container {
     position: relative;
-    height: 105vh;
+    height: 110vh;
     width: 100%;
     overflow: hidden;
 }
@@ -160,7 +160,7 @@ li a {
 
 
 .firstWord {
-    color: var(--mid-blue);
+    color: var(--light-blue);
 }
 
 .resume-cta {
@@ -379,7 +379,7 @@ h3 {
     margin: 10%;
     width: 80%;
     height: auto;
-    background-color: #46474b;
+    background-color: #eee9e6;
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
@@ -403,7 +403,7 @@ h3 {
 
 .about-text {
     height: auto;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 40%;
     font-size: 1.5rem;
     margin-left: 100px;
@@ -615,7 +615,7 @@ h3 {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color:#46474b;
+        background-color:#eee9e6;
         height: 600px;
         box-shadow:-15px 7px 30px rgba(0, 0, 0, 0.2);
     }
