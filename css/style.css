@@ -311,7 +311,7 @@ h3 {
     align-items: center;
     justify-content: center;
     margin: 100px; 
-    color: var(--dark-blue);
+    color: var(--light-blue);
 
 
     
@@ -319,6 +319,7 @@ h3 {
 
 .project-header3:hover {
     text-decoration: underline;
+    color: var(--light-blue);
 }
 
 
